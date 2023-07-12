@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimscapeMultibodyImportXML xmlns="urn:mathworks:SimscapeMultibody:import"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                            version="2.0">
+   <Created by="Sai Vedant" from="Onshape" on="05/23/23||13:12:12"
+            using="Simscape Multibody Exporter"/>
+   <ModelUnits length="millimeter" mass="kilogram"/>
+   <DataUnits length="meter" mass="kilogram"/>
+   <RootAssembly name="Glider_buoyancy v2" uid="b17d694af876da002e55e116"
+                 version="w-2bdd4dddc7a07de00672de18">
+      <InstanceTree>
+         <Instance entityUid="JFX*:*0a42eed2cee89c4819dec7c7" name="WTube &lt;1&gt;"
+                   uid="MIoIV15FtXO8QFq8q">
+            <Transform>
+               <Rotation>-1.000000000 0.000000000 -0.000000000 0.000000000 -0.000000000 -1.000000000 -0.000000000 -1.000000000 0.000000000 </Rotation>
+               <Translation>-0.274374140 1.418667434 -0.315548708 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFT*:*0a42eed2cee89c4819dec7c7" name="WWing &lt;2&gt;"
+                   uid="M1HTrjcj4JEP9fdwH">
+            <Transform>
+               <Rotation>-0.000000000 1.000000000 -0.000000000 -1.000000000 -0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>-0.507854571 0.982667434 -0.316048708 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*0a42eed2cee89c4819dec7c7" name="WWing_mount &lt;1&gt;"
+                   uid="MZ4bJoHPL1BlptJZK">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+               <Translation>0.325625860 0.937667434 -0.015548708 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFH*:*0a42eed2cee89c4819dec7c7" name="WBackCap &lt;1&gt;"
+                   uid="M2BaKgtdZJLzB/3si">
+            <Transform>
+               <Rotation>0.000000000 -1.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 -1.000000000 -0.000000000 -0.000000000 </Rotation>
+               <Translation>-0.274374140 1.872667441 -0.315548708 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFL*:*0a42eed2cee89c4819dec7c7" name="WFrontCap &lt;1&gt;"
+                   uid="MbGcoiz93JmUvJLoJ">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+               <Translation>-0.274374140 -0.024332566 -0.315548708 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFP*:*0a42eed2cee89c4819dec7c7" name="WNosecone &lt;1&gt;"
+                   uid="MuQ+5q/+g3P5/yEmf">
+            <Transform>
+               <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+               <Translation>-0.874374125 -0.024332566 -0.315548951 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFT*:*0a42eed2cee89c4819dec7c7" name="WWing &lt;1&gt;"
+                   uid="Mrusg9pigPnlCMANN">
+            <Transform>
+               <Rotation>-0.000000000 -1.000000000 0.000000000 -1.000000000 0.000000000 -0.000000000 0.000000000 -0.000000000 -1.000000000 </Rotation>
+               <Translation>-0.040893708 0.982667434 -0.314048708 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*0a42eed2cee89c4819dec7c7" name="WWing_mount &lt;2&gt;"
+                   uid="MlTQXmquz808dcE7E">
+            <Transform>
+               <Rotation>-1.000000000 -0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+               <Translation>-0.874374140 0.937667434 -0.615548708 </Translation>
+            </Transform>
+         </Instance>
+      </InstanceTree>
+      <Constraints/>
+      <Joints>
+         <Weld name="Fastened3">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MIoIV15FtXO8QFq8q</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-1.000000000 0.000000000 -0.000000000 -0.000000000 -1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.481000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MZ4bJoHPL1BlptJZK</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>-0.600000000 0.300000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="Fastened4">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MIoIV15FtXO8QFq8q</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.481000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MlTQXmquz808dcE7E</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>-0.600000000 0.300000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="Fastened5">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MlTQXmquz808dcE7E</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 -1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 -1.000000000 0.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.673480431 0.301500000 0.080000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>Mrusg9pigPnlCMANN</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>-0.035000000 0.160000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="Fastened6">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MlTQXmquz808dcE7E</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 -1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 -1.000000000 0.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.526519569 0.301500000 0.080000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M1HTrjcj4JEP9fdwH</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.035000000 0.160000000 0.002000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="Fastened7">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MbGcoiz93JmUvJLoJ</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.000000000 -0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MuQ+5q/+g3P5/yEmf</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.599999985 0.000000243 -0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="Fastened1">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MbGcoiz93JmUvJLoJ</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 1.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.006000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M2BaKgtdZJLzB/3si</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 -1.891000008 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="Fastened2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M2BaKgtdZJLzB/3si</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 1.000000000 -0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>-0.000000000 0.000000000 -1.891000008 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MIoIV15FtXO8QFq8q</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 1.437000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+      </Joints>
+   </RootAssembly>
+   <Assemblies/>
+   <Parts>
+      <Part name="WWing_mount" uid="JFD*:*0a42eed2cee89c4819dec7c7">
+         <ModelUnits length="millimeter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.0753795443</Mass>
+            <CenterOfMass>-0.600000005 0.327416395 0.044999997 </CenterOfMass>
+            <Inertia>0.000098228 0.000277595 0.000251485 -0.000000000 -0.000000001 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="WWing_mount.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Diffuse a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Specular a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="WBackCap" uid="JFH*:*0a42eed2cee89c4819dec7c7">
+         <ModelUnits length="millimeter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>15.1589693</Mass>
+            <CenterOfMass>-0.000000000 0.000000000 -0.931781436 </CenterOfMass>
+            <Inertia>4.658734172 4.658734172 0.019104988 0.000000000 -0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="WBackCap.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Diffuse a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Specular a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="WFrontCap" uid="JFL*:*0a42eed2cee89c4819dec7c7">
+         <ModelUnits length="millimeter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.05871571</Mass>
+            <CenterOfMass>-0.000000000 -0.000000000 0.003002199 </CenterOfMass>
+            <Inertia>0.000047056 0.000050892 0.000097596 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="WFrontCap.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Diffuse a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Specular a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="WNosecone" uid="JFP*:*0a42eed2cee89c4819dec7c7">
+         <ModelUnits length="millimeter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.681642215</Mass>
+            <CenterOfMass>0.599999976 0.000000053 0.038197737 </CenterOfMass>
+            <Inertia>0.000879300 0.000879297 0.000865917 0.000000001 0.000000000 0.000000001 </Inertia>
+         </MassProperties>
+         <GeometryFile name="WNosecone.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Diffuse a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Specular a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="WWing" uid="JFT*:*0a42eed2cee89c4819dec7c7">
+         <ModelUnits length="millimeter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.119971726</Mass>
+            <CenterOfMass>0.000000000 -0.075055384 0.001000000 </CenterOfMass>
+            <Inertia>0.002498478 0.000144005 0.002642404 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="WWing.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Diffuse a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Specular a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="WTube" uid="JFX*:*0a42eed2cee89c4819dec7c7">
+         <ModelUnits length="millimeter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>4.11750498</Mass>
+            <CenterOfMass>-0.000000000 0.000000000 0.481000000 </CenterOfMass>
+            <Inertia>1.260397194 1.260397194 0.012037037 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="WTube.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Diffuse a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Specular a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+   </Parts>
+</SimscapeMultibodyImportXML>
